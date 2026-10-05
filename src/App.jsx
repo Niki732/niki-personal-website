@@ -1,21 +1,21 @@
 // This file contains the website's content and component structure
 import './App.css'
-import profileImage from './assets/profile.png'
+import profileImage from './assets/self.jpeg'
 
 // This object stores the words and links shown on the page.
 // You can edit the text here without needing to change the layout below.
 // Change these details to make this website yours.
 const siteInfo = {
-  name: "Niki's Website",
+  name: "Niki",
   role: 'Computer science student',
   intro: 'I am learning how to build useful things with code, one small project at a time.',
   // Replace profile.png in src/assets to use your own profile picture.
   image: profileImage,
   location: 'Based in Gainesville, FL',
-  email: 'capybara@ufl.edu',
-  about: 'I enjoy solving puzzles, learning new tools, and working with people who are curious. This website is a place to share what I am learning and making.',
+  email: 'niki.lin@ufl.edu',
+  about: 'I enjoy watching Cdramas/Kdramas, playing pickleball, playing video games, crocheting and trying new foods.',
   // Add, remove, or rename languages and tools in this list.
-  skills: ['JavaScript', 'Python', 'React', 'HTML & CSS', 'Git & GitHub'],
+  skills: ['JavaScript', 'Python', 'HTML & CSS', 'Java'],
   // Add a new project by copying one of these lines and changing its words.
   projects: [
     { title: 'Calculator', description: 'A simple calculator.', tag: 'Python project' },
@@ -23,8 +23,8 @@ const siteInfo = {
   ],
   // Add your social links here. You can remove any of these if you don't want them to show up.
   links: {
-    github: 'https://github.com/your-username',
-    linkedin: 'https://www.linkedin.com/in/your-username',
+    github: 'https://github.com/Niki732',
+    linkedin: 'https://www.linkedin.com/in/nikilin7',
   },
 }
 
